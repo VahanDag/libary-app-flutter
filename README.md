@@ -1,16 +1,7 @@
-# odevdeneme
+# Kütüphane Otomasyonu
 
-A new Flutter project.
+Mobil cihazlar için Uygulama geliştirme dersi vize puanlaması için oluşturulan bir Flutter projesi.
 
-## Getting Started
+## Notlar
+Projede Firebase'e eklenen kitapları veya silininen kitapları ana sayfada görüntülemek için StreamBuilder widget'ını kullandım. Bu widget "setState" metodu yerine daha iyi performans ve kod karmaşıklılığını azaltıyor. Bir diğer değinmek istediğim konu ise kitap ekleme sayfasındaki "basım yılı" ve "sayfa sayısı" alanlarının sadece numaralarla giriş yapılması. Burda da TextFormField'ın "inputFormatters" özelliğini kullandım. Tabi kullanıcıya yalnızca sayı girilmesini belirtmek için bunu "validator" özelliğinin içerisinde bir RegEx kodu tanımlayarak da yapabilirdik.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
