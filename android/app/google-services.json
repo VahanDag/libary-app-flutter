@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "59359366733",
+    "project_id": "mobil-odev-f2ab3",
+    "storage_bucket": "mobil-odev-f2ab3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:59359366733:android:e982e7cb9d6e76dd2d1604",
+        "android_client_info": {
+          "package_name": "com.example.odevdeneme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNd2E6zvd6FbVP_2hxdE0LMzTsf1mZ93w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
